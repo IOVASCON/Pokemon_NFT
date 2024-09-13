@@ -1,0 +1,20 @@
+{
+    "name": "pokemon-nft",
+    "version": "1.0.0",
+    "description": "Contrato NFT de Pokémon com batalhas",
+    "main": "truffle-config.js",
+    "scripts": {
+        "test": "truffle test",
+        "deploy": "truffle migrate"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.9.6",
+        "chai": "^5.1.1",
+        "mocha": "^10.7.3",
+        "pokemon-nft": "file:",
+        "web3": "^4.12.1"
+    },
+    "devDependencies": {
+        "hardhat": "^2.22.10"
+    }
+}
