@@ -69,7 +69,7 @@ A seguir, a imagem da compilação bem-sucedida do contrato **PokemonNFT**.
 
 A seguir, a imagem que mostra o contrato **PokemonNFT** implantado com sucesso na blockchain local.
 
-![Contrato PokemonNFT Implantado](./images/Contrato_PokemonNFT_Implantado.png)
+![Contrato PokemonNFT Implantado](./images/Contrato_PokemonNFT_Implantado.PNG)
 
 ### Implantação do Contrato Migrations
 
