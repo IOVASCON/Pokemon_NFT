@@ -34,27 +34,60 @@ Pokemon_NFT/
 ├── README.md                       # Documentação do projeto
 └── .gitignore                      # Arquivos ignorados no controle de versão
 
-Ferramentas e Bibliotecas Instaladas
+## Ferramentas e Bibliotecas Instaladas
 
-    Truffle: Framework para desenvolvimento e gerenciamento de contratos inteligentes.
+1. **Truffle:** Framework para desenvolvimento e gerenciamento de contratos inteligentes.
+
         Instalação:
         npm install -g truffle
 
-    Ganache CLI: Simulador de blockchain local.
+2. **Ganache CLI:** Simulador de blockchain local.
 
         Instalação:
         npm install -g ganache
 
-    OpenZeppelin: Biblioteca com contratos padrões como ERC-721.
+3. **OpenZeppelin:** Biblioteca com contratos padrões como ERC-721.
 
         Instalação:
         npm install @openzeppelin/contracts
 
-    Node.js: Ambiente de execução JavaScript (inclui npm para gerenciar pacotes).
+4. **Node.js:** Ambiente de execução JavaScript (inclui npm para gerenciar pacotes).
 
         Verificação:
         node -v
         npm -v
+
+## Imagens do Processo
+
+### Compilação do Contrato
+
+A seguir, a imagem da compilação bem-sucedida do contrato **PokemonNFT**.
+
+![Compilação do Contrato](./images/Compilacao_Contrato.PNG)
+
+### Contrato PokemonNFT Implantado
+
+A seguir, a imagem que mostra o contrato **PokemonNFT** implantado com sucesso na blockchain local.
+
+![Contrato PokemonNFT Implantado](./images/Contrato_PokemonNFT_Implantado.png)
+
+### Implantação do Contrato Migrations
+
+A seguir, a imagem que mostra a implantação do contrato **Migrations** na blockchain local.
+
+![Implantação do Contrato Migrations](./images/Implantacao_Contrato_Migrations.PNG)
+
+### Novo Pokémon NFT Criado
+
+A seguir, a imagem que mostra a criação de um novo Pokémon NFT utilizando o contrato implantado.
+
+![Novo Pokémon NFT](./images/Novo_PokemonNFT.PNG)
+
+### Re-Migração e Deploy do Contrato PokemonNFT
+
+A seguir, a imagem que mostra a re-migração e o deploy do contrato **PokemonNFT** na blockchain local.
+
+![Re-Migração e Deploy do Contrato PokemonNFT](./images/Re_Migracao_Deploy_PokemonNFT.PNG)
 
 ## Como Rodar o Projeto
 
